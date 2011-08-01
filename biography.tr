@@ -10,6 +10,121 @@
 .HEADERS OFF
 .START
 
+.LIST ROMAN7 .
+.ITEM
+My Birth.
+.LIST ALPHA .
+.ITEM
+Time.
+.ITEM
+Place.
+.ITEM
+Weight.
+.ITEM
+Parents.
+.ITEM
+Ancestry.
+.LIST OFF
+.ITEM
+Early Childhood.
+.LIST ALPHA .
+.ITEM
+Teeth.
+.ITEM
+Whooping cough.
+.ITEM
+First walking.
+.ITEM
+Brother's and sister's births.
+.ITEM
+Moving and present home.
+.ITEM
+The depression.
+.LIST OFF
+.ITEM
+Elementary School.
+.LIST ALPHA .
+.ITEM
+Early impressions.
+.ITEM
+Music festivals.
+.LIST DIGIT .
+.ITEM
+Second grade rythm band.
+.ITEM
+Fifth and sixth grade group singing.
+.LIST OFF
+.ITEM
+Fair work.
+.ITEM
+Teachers.
+.ITEM
+School work.
+.ITEM
+Boy Patrol and Gra-Y.
+.LIST OFF
+.ITEM
+Junior High School.
+.LIST ALPHA .
+.ITEM
+Being on the Honor Roll.
+.ITEM
+Holding class offices.
+.ITEM
+Social life.
+.ITEM
+Participating in dramatics.
+.LIST OFF
+.ITEM
+High School.
+.LIST ALPHA .
+.ITEM
+Bulletin room.
+.ITEM
+School work.
+.LIST DIGIT .
+.ITEM
+Subject grades.
+.ITEM
+Membership in Honor Society.
+.LIST OFF
+.ITEM
+Social activities.
+.LIST OFF
+.ITEM
+D. C. T.
+.LIST ALPHA .
+.ITEM
+Meaning of initials.
+.ITEM
+Application.
+.ITEM
+Acceptance by coordinator.
+.ITEM
+Southeastern Optical Co.
+.LIST DIGIT .
+.ITEM
+Application.
+.ITEM
+Trial period.
+.ITEM
+Messender and mailing work.
+.ITEM
+Bench work.
+.LIST OFF
+.LIST OFF
+.ITEM
+Conclusion.
+.LIST ALPHA .
+.ITEM
+Philosophy
+.ITEM
+Plans.
+.LIST OFF
+.LIST OFF
+
+.BLANKPAGE 0  \# pagebreak
+
 .INDENT_FIRST_PARAS
 .PP
 I was born to Mr. and Mrs. J. C. Wellons in Tampa on April 28, 1924. I
