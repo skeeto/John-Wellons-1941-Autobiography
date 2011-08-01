@@ -6,16 +6,20 @@
 #  original  create a PDF of the original document snapshots
 #  clean     remove all generated files
 
+NAME = biography
 VIEWER = evince
 
-biography.ps : biography.tr
+$(NAME).ps : $(NAME).tr
 	groff -mom $^ > $@
 
-biography.pdf : biography.ps
+$(NAME).pdf : $(NAME).ps
 	ps2pdf $^ $@
 
-biography.txt : biography.tr
+$(NAME).txt : $(NAME).tr
 	groff -mom -P "-cbou" -T utf8 $^ > $@
+
+$(NAME).html : $(NAME).tr
+	groff -mom -P "-rj"$(NAME) -T html $^ > $@
 
 original.pdf :
 	convert original/*.jpg original.pdf
@@ -23,13 +27,15 @@ original.pdf :
 .PHONY : clean run pdf original
 
 clean :
-	$(RM) *.pdf *.ps *.txt
+	$(RM) $(NAME).pdf $(NAME).ps $(NAME).txt $(NAME).html
 
-run : biography.ps
+run : $(NAME).ps
 	$(VIEWER) $^
 
-pdf : biography.pdf
+pdf : $(NAME).pdf
 
-txt : biography.txt
+txt : $(NAME).txt
+
+html : $(NAME).html
 
 original : original.pdf
