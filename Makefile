@@ -3,6 +3,7 @@
 #  run       build and view the document
 #  pdf       create a PDF, rather than just Postscript
 #  txt       create a plain text version
+#  html      create a very crude HTML version
 #  original  create a PDF of the original document snapshots
 #  clean     remove all generated files
 
@@ -24,7 +25,7 @@ $(NAME).html : $(NAME).tr
 original.pdf :
 	convert original/*.jpg original.pdf
 
-.PHONY : clean run pdf original
+.PHONY : clean run pdf txt html original
 
 clean :
 	$(RM) $(NAME).pdf $(NAME).ps $(NAME).txt $(NAME).html
