@@ -1,12 +1,16 @@
-.TITLE    "JUST ANOTHER JOHN"
-.SUBTITLE "An Autobiography"
-.AUTHOR   "John Wellons"
+.DOCTITLE       "JUST ANOTHER JOHN:"
+.SUBTITLE COVER "An Autobiography"
+.AUTHOR   COVER "John Wellons"
 
-.PRINTSTYLE TYPESET
+.PRINTSTYLE TYPEWRITE
 .FT         CR
 
+.COVER DOCTITLE SUBTITLE AUTHOR
+
+.HEADERS OFF
 .START
 
+.INDENT_FIRST_PARAS
 .PP
 I was born to Mr. and Mrs. J. C. Wellons in Tampa on April 28, 1924. I
 was a normal healthy baby except that I weighed ten pounds at birth,
