@@ -20,7 +20,7 @@ $(NAME).txt : $(NAME).tr
 	groff -mom -P "-cbou" -T utf8 $^ > $@
 
 $(NAME).html : $(NAME).tr
-	groff -mom -P "-rj"$(NAME) -T html $^ > $@
+	groff -mom -P "-r" -T html $^ > $@
 
 original.pdf :
 	convert original/*.jpg original.pdf
